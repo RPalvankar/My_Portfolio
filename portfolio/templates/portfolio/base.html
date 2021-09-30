@@ -15,12 +15,13 @@
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" href="{% static 'portfolio/Ritvik_Logo.png' %}">
+  
 
   <title>Ritvik Palvankar</title>
 </head>
 
 <body>
-
+ 
   <nav id="topNav" class="navbar navbar-expand-md navbar-light">
     <div class="container">
       <a class="navbar-brand" href="{% url 'home' %}">
@@ -33,13 +34,13 @@
       <div class="collapse navbar-collapse text-center" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="{% static 'portfolio/Resume_Django.pdf' %}">Resume</a>
+            <a class="nav-link" href="{% static 'portfolio/Ritvik_Palvankar_Resume.pdf' %}">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.linkedin.com/in/ritvik-ramesh-palvankar-117b5b170/" target="_blank">LinkedIn</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/ZappyCode" target="_blank">Twitter</a>
+            <a class="nav-link" href="https://www.hackerrank.com/certificates/05654363958f" target="_blank">Hackerrank</a>
           </li>
           <li>
             <a role="button" href="{% url 'blog:all_blogs' %}" class="btn btn-primary">Blog</a>
@@ -51,6 +52,7 @@
   <div class="container">
     {% block content %}{% endblock %}
   </div>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
